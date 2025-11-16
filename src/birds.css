@@ -1,0 +1,25 @@
+```css
+.bird {
+position: absolute;
+top: 20%;
+width: 40px;
+height: 40px;
+background-size: cover;
+background-image: url('https://i.imgur.com/Z0Z8GQh.png'); /* simple flapping bird icon */
+animation: fly 12s linear infinite;
+}
+
+
+.bird1 { left: -50px; animation-duration: 14s; top: 25%; }
+.bird2 { left: -80px; animation-duration: 18s; top: 18%; }
+.bird3 { left: -120px; animation-duration: 22s; top: 30%; }
+
+
+@keyframes fly {
+0% { transform: translateX(0) scale(1); }
+100% { transform: translateX(130vw) scale(1.05); }
+}
+```
+
+
+---
